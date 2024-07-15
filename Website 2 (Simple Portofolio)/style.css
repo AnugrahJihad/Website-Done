@@ -32,16 +32,36 @@ nav {
 }
 
 nav>ul>li {
-    list-style-type: none;
     display: inline-block;
+    align-items: center;
+    list-style-type: none;
     padding: 10px 35px;
 }
 
 nav>ul>li>a {
     color: white;
+    font-weight: bold;
     text-decoration: none;
+    display: inline-block;
 }
 
 nav>ul>li>a:hover {
-    text-decoration: underline;
+    color: #f9004d;
+    transition: .5s;
+}
+
+.nav-btn {
+    padding-inline: 20px;
+    padding-block: 10px;
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f9004d;
+    color: white;
+}
+
+.nav-btn:hover {
+    background-color: white;
+    color: #f9004d;
+    transition: .5s;
 }
