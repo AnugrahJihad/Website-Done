@@ -65,3 +65,43 @@ nav>ul>li>a:hover {
     color: #f9004d;
     transition: .5s;
 }
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 15%;
+    color: white;
+}
+
+.welcome {
+    color: #f9004d;
+    font-weight: bold;
+}
+
+.name {
+    font-weight: 1000;
+}
+
+.name-title {
+    color: #f9004d;
+}
+
+.title>h1 {
+    font-size: 52px;
+}
+
+.title>p>a {
+    color: white;
+    text-decoration: none;
+}
+
+.title>p>a:hover {
+    color: #f9004d;
+    text-decoration: underline;
+}
+
+.title-one {
+    margin-bottom: -10px;
+}
