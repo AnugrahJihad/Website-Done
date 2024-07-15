@@ -68,16 +68,17 @@ nav>ul>li>a:hover {
 
 .title {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     font-size: 20px;
-    margin-top: 15%;
+    margin-top: 17%;
     color: white;
 }
 
 .welcome {
+    font-weight: 400;
     color: #f9004d;
-    font-weight: bold;
 }
 
 .name {
@@ -103,6 +104,7 @@ nav>ul>li>a:hover {
 }
 
 .title-one {
+    font-weight: bold;
     margin-bottom: -5px;
 }
 
@@ -114,11 +116,36 @@ nav>ul>li>a:hover {
 /* <!-----About Me-----> */
 
 section {
+    display: flex;
+    align-items: center;
     height: 100vh;
     width: 100%;
-    /* background-color: #191919; */
+    padding-top: 45px;
+    padding-inline: 8%;
+    background-color: #191919;
 }
 
 .image {
-    width: 100px;
+    height: auto;
+    width: 400px;
+    margin-right: 7%;
+    border-radius: 5px;
+}
+
+.about-title {
+    font-size: 50px;
+    color: white;
+    font-weight: 500;
+}
+
+.me {
+    color: #f9004d;
+    font-weight: 900;
+}
+
+.about-contain {
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 25px;
+    color: white;
 }
