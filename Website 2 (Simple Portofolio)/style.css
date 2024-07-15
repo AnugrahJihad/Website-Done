@@ -93,12 +93,12 @@ nav>ul>li>a:hover {
     font-size: 52px;
 }
 
-.title>p>a {
+.broswer {
     color: white;
     text-decoration: none;
 }
 
-.title>p>a:hover {
+.broswer:hover {
     color: #f9004d;
     text-decoration: underline;
 }
