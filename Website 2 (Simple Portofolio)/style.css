@@ -188,22 +188,31 @@ section {
     flex-direction: column;
     align-items: center;
     height: 365px;
-    width: 235px;
-    padding: 25px 0px 0px 0px;
+    width: 290px;
+    padding-top: 40px;
     background-color: #232323;
     border-radius: 20px;
-    margin: 15px;
+    margin: 50px;
+}
+
+#skil-icon {
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+.skill-name {
+    margin-bottom: 70px;
 }
 
 .out {
-    width: 100px;
-    height: 20px;
-    border-radius: 25px;
+    width: 200px;
+    height: 10px;
+    border-radius: 30px;
     background-color: white;
 }
 
 .html-in {
-    width: 70%;
+    width: 85%;
     height: 100%;
     background-color: #e44d26;
     text-align: center;
@@ -223,7 +232,7 @@ section {
 }
 
 .js-in {
-    width: 15%;
+    width: 10%;
     height: 100%;
     background-color: #f7df1e;
     text-align: center;
