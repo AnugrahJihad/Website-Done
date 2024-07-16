@@ -169,3 +169,36 @@ section {
     color: #f9004d;
     transition: .5s;
 }
+
+
+/* <!-----About Me-----> */
+
+.box-skill {
+    display: flex;
+    color: white;
+}
+
+.code {
+    height: 365px;
+    width: 235px;
+    padding: 20px 35px;
+    background-color: #232323;
+    border-radius: 20px;
+    
+}
+
+.out {
+    width: 80%;
+    background-color: #e0e0e0;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.html-in {
+    height: 30px;
+    background-color: #4caf50;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border-radius: 25px 0 0 25px;
+}
