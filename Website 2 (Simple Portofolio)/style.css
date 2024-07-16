@@ -152,8 +152,18 @@ section {
 
 .about-icon {
     display: flex;
-    font-size: 30px;
-    margin-top: 25px;
     gap: 20px;
+    margin-top: 25px;
+}
+
+#about-icon {
+    width: 5%;
+    font-size: 30px;
     color: white;
+}
+
+#about-icon:hover {
+    cursor: pointer;
+    color: #f9004d;
+    transition: .5s;
 }
