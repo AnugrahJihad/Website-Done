@@ -175,6 +175,9 @@ section {
 
 .box-skill {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
     color: white;
 }
 
@@ -184,7 +187,10 @@ section {
     padding: 20px 35px;
     background-color: #232323;
     border-radius: 20px;
-    
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
 }
 
 .out {
