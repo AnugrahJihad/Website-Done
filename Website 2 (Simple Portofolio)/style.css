@@ -302,9 +302,9 @@ section {
 }
 
 
-/* <!-----contact-----> */
+/* <!-----contract-----> */
 
-.contact {
+.contract {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -361,4 +361,23 @@ section {
     border-color: #f9004d;
     background-color: #191919;
     transition: .3s;
+}
+
+
+/* <!-----info-----> */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to bottom, #191919, #000000);
+}
+
+.footer-content {
+    display: flex;
+    gap: 100px;
+    color: white;
+}
+
+.footer-content>ul>li>a {
+    color: white;
 }
