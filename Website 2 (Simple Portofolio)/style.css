@@ -179,9 +179,8 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
-    width: 100%;
     align-items: center;
+    width: 100%;
     min-height: 400px;
     color: white;
 }
@@ -192,8 +191,13 @@ section {
     margin-bottom: 5px;
 }
 
-.skill-title>span {
+.s {
     color: #f9004d;
+}
+
+.e {
+    letter-spacing: 0px;
+    font-size: 40px;
 }
 
 .code-box {
@@ -261,4 +265,17 @@ section {
 .status {
     margin-top: 40px;
     text-align: center;
+}
+
+
+/* <!-----contact-----> */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 400px;
+    color: white;
 }
