@@ -222,7 +222,7 @@ section {
 }
 
 .skill-name {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 
 .out {
@@ -264,6 +264,10 @@ section {
 
 .status {
     margin-top: 40px;
+}
+
+.code-info {
+    margin-bottom: 3px;
 }
 
 
