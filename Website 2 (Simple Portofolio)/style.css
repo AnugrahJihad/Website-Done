@@ -315,7 +315,7 @@ section {
 
 .wrapper {
     justify-content: center;
-    width: 100%;
+    width: 85%;
     height: auto;
     border-style: solid;
     border-color: #f9004d;
@@ -327,6 +327,11 @@ section {
     font-size: 30px;
     margin-top: 50px;
     margin-bottom: 10px;
+}
+
+.m {
+    font-size: 40px;
+    color: #f5f900;
 }
 
 .wrapper>p {
@@ -346,7 +351,7 @@ section {
     color: white;
 }
 
-.wrapper>button>i {
+.fa-wand-sparkles {
     margin-left: 10px;
 }
 
