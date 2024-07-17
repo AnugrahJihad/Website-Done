@@ -305,10 +305,54 @@ section {
 
 .contact {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    text-align: center;
+    height: 50vh;
     width: 100%;
     min-height: 400px;
     color: white;
+}
+
+.wrapper {
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    border-style: solid;
+    border-color: #f9004d;
+    border-radius: 20px;
+    background: #191919;
+}
+
+.wrapper>h1 {
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.wrapper>p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.wrapper>button {
+    font-weight: 500;
+    border-style: solid;
+    border-radius: 6px;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    background-color: #f9004d;
+    color: white;
+}
+
+.wrapper>button>i {
+    margin-left: 10px;
+}
+
+.wrapper>button:hover {
+    border-style: solid;
+    border-color: #f9004d;
+    background-color: #191919;
+    transition: .3s;
 }
