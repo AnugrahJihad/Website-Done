@@ -210,7 +210,7 @@ section {
     align-items: center;
     height: 365px;
     width: 290px;
-    padding-top: 40px;
+    padding-top: 30px;
     background-color: #232323;
     border-radius: 20px;
     margin: 50px;
@@ -222,7 +222,7 @@ section {
 }
 
 .skill-name {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .out {
@@ -242,6 +242,16 @@ section {
     border-radius: 25px;
 }
 
+.exehtml-in {
+    width: 95%;
+    height: 100%;
+    background-color: #39e426;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border-radius: 25px;
+}
+
 .css-in {
     width: 80%;
     height: 100%;
@@ -252,10 +262,30 @@ section {
     border-radius: 25px;
 }
 
+.execss-in {
+    width: 95%;
+    height: 100%;
+    background-color: #39e426;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border-radius: 25px;
+}
+
 .js-in {
     width: 10%;
     height: 100%;
     background-color: #f7df1e;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border-radius: 25px;
+}
+
+.exejs-in {
+    width: 3%;
+    height: 100%;
+    background-color: #39e426;
     text-align: center;
     line-height: 30px;
     color: white;
