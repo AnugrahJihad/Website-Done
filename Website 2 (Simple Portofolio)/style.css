@@ -366,32 +366,8 @@ section {
 /* <!-----info-----> */
 
 .footer {
-    justify-content: center;
-    height: 50vh;
-    width: 100%;
-    gap: 100px;
-    background-color: rgb(10, 10, 10);
-}
-
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    gap: 100px;
-    color: white;
-}
-
-.footer-content>ul>li>a {
-    color: white;
-}
-
-.copyright {
-    justify-content: center;
-    height: 90px;
-    text-align: center;
-    color: white;
-    background-color: black;
-}
-
-.copyright>p {
-    padding-top: 30px;
+    display: grid;
+    gap: 50px;
+    padding: 80px 13% 70px;
+    background-color: aliceblue;
 }
