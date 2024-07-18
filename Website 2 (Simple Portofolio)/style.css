@@ -370,7 +370,7 @@ section {
     justify-content: center;
     height: 70vh;
     width: 100%;
-    background: linear-gradient(to bottom, #191919, #000000);
+    background: linear-gradient(to bottom, #191919, #212121);
 }
 
 .footer-content {
