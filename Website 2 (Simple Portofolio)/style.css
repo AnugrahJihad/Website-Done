@@ -310,7 +310,6 @@ section {
     text-align: center;
     height: 50vh;
     width: 100%;
-    min-height: 400px;
     color: white;
 }
 
@@ -369,6 +368,8 @@ section {
 .footer {
     display: flex;
     justify-content: center;
+    height: 70vh;
+    width: 100%;
     background: linear-gradient(to bottom, #191919, #000000);
 }
 
