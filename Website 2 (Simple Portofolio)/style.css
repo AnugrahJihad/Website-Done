@@ -382,7 +382,6 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    background-color: aqua;
 }
 
 .footer-left {
