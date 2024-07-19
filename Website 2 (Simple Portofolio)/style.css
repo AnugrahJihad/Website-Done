@@ -365,3 +365,18 @@ section {
 
 /* <!-----footer-----> */
 
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 50px;
+    color: white;
+    background-color: black;
+}
+
+.footer>* {
+    flex: 1 100%;
+}
+
+.footer-left {
+    
+}
