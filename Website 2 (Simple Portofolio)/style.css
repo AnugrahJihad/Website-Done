@@ -363,11 +363,5 @@ section {
 }
 
 
-/* <!-----info-----> */
+/* <!-----footer-----> */
 
-.footer {
-    display: grid;
-    gap: 50px;
-    padding: 80px 13% 70px;
-    background-color: aliceblue;
-}
