@@ -367,10 +367,10 @@ section {
 
 footer {
     display: flex;
-    flex-flow: row wrap;
+    align-items: start;
     padding: 100px;
     color: white;
-    background-color: black;
+    background-color: #101010;
 }
 
 .footer * {
@@ -380,6 +380,14 @@ footer {
 .footer-left {
     margin-right: 1.25em;
     margin-bottom: 2em;
+}
+
+.footer-logo {
+    font-size: 50px;
+}
+
+.footer-logo span {
+    color: #f9004d;
 }
 
 .h2 {
@@ -402,7 +410,6 @@ footer {
 
 .footer-right {
     display: flex;
-    flex-flow: row wrap;
 }
 
 .footer-right * {
@@ -411,16 +418,16 @@ footer {
 }
 
 .box a {
-    color: #999;
+    color: white;
 }
 
-.footer-bottom {
-    text-align: center;
-    color: #999;
-    padding-top: 50px;
+.box a:hover {
+    color: #f9004d;
+    transition: 0.4s;
 }
 
 .footer-left p {
+    text-align: justify;
     padding-right: 20%;
     color: #999;
 }
@@ -434,9 +441,25 @@ footer {
     margin-top: 10px;
 }
 
+.social a i:hover {
+    color: #f9004d;
+    transition: 0.4s;
+}
+
 .social a i {
     color: #e7f2f4;
     padding: 10px 12px;
     font-size: 20px;
 }
 
+.copyright {
+    justify-content: center;
+    height: 90px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.copyright>p {
+    padding-top: 30px;
+}
