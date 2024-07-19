@@ -367,7 +367,8 @@ section {
 
 footer {
     display: flex;
-    align-items: start;
+    flex-direction: row;
+    justify-content: space-between;
     padding: 100px;
     color: white;
     background-color: #101010;
@@ -375,6 +376,13 @@ footer {
 
 .footer * {
     flex: 1 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: aqua;
 }
 
 .footer-left {
