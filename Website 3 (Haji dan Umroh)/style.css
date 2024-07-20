@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
 }
 
 .header {
@@ -14,7 +18,7 @@
 
 nav {
     display: flex;
-    padding: 2% 6%;
+    padding: 2% 10%;
     justify-content: space-between;
     align-items: center;
 }
@@ -31,6 +35,21 @@ nav img {
 .nav-links ul li {
     list-style: none;
     display: inline-block;
-    padding: 8px 12px;
+    padding: 8px 30px;
     position: relative;
+}
+
+.nav-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-links ul li a button {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 15px;
+    padding-block: 5px;
+    padding-inline: 15px;
 }
