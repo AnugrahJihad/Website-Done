@@ -39,16 +39,24 @@ nav img {
     position: relative;
 }
 
-.nav-links ul li a {
+.nav-links ul li .a {
     color: white;
     text-decoration: none;
     font-size: 15px;
 }
 
-.nav-links ul li a:hover {
-    color: #ff5900;
-    text-decoration: underline;
+.nav-links ul li .a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: #ff5900;
+    display: block;
+    margin: auto;
     transition: .5s;
+}
+
+.nav-links ul li .a:hover::after {
+    width: 100%;
 }
 
 .nav-links ul li a button {
