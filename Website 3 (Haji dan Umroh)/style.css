@@ -124,6 +124,11 @@ nav .fa {
 }
 
 @media(max-width: 700px){
+    nav img {
+        padding-top: 7px;
+        width: 150px;
+    }
+
     .title h1 {
         font-size: 15px;
     }
@@ -241,7 +246,7 @@ h3 {
 
 @media (max-width: 700px) {
     .course h1 {
-        font-size: 23px;
+        font-size: 20px;
     }
 
     .course p {
@@ -309,6 +314,16 @@ h3 {
     opacity: 1;
 }
 
+@media (max-width: 700px) {
+    .campus h1 {
+        font-size: 20px;
+    }
+
+    .campus p {
+        font-size: 11px;
+    }
+}
+
 
 
 /* <!--maskapai--> */
@@ -339,6 +354,16 @@ h3 {
     margin-top: 15px;
     margin-bottom: 15px;
     text-align: left;
+}
+
+@media (max-width: 700px) {
+    .facilities h1 {
+        font-size: 20px;
+    }
+    .facilities p {
+        font-size: 11px;
+    }
+    
 }
 
 
@@ -381,6 +406,24 @@ h3 {
 }
 
 @media (max-width: 700px) {
+    .testimonials h1 {
+        font-size: 20px;
+    }
+
+    .testi {
+        font-size: 11px;
+    }
+
+    .testimonials p {
+        font-size: 12px;
+    }
+
+    .testimonials-col h3 {
+        margin-top: 15px;
+        text-align: left;
+        font-size: 15px;
+    }
+
     .testimonials-col img {
         object-fit: cover;
         margin-left: 0px;
@@ -443,4 +486,17 @@ h3 {
     margin: 0 10px;
     cursor: pointer;
     padding: 20px 0;
+}
+
+@media (max-width: 700px) {
+    .footer h4 {
+        margin-bottom: 25px;
+        margin-top: 20px;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .footer p {
+        font-size: 11px;
+    }
 }
