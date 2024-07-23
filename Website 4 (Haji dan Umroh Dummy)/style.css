@@ -18,14 +18,55 @@
 }
 
 nav {
+    height: 60;
+    background-color: black;
     display: flex;
-    padding: 2% 6%;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
+}
+
+.links-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav a {
+    height: 100%;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    background-color: blue;
+}
+
+nav .home-link {
+    margin-right: auto;
+}
+
+#sidebar-active {
+    display: none;
+}
+
+.open-sidebar-btn, .close-sidebar-btn {
+    display: none;
 }
 
 nav img {
     width: 200px;
+}
+
+/* nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav-links {
@@ -80,7 +121,7 @@ nav img {
     border: 2px solid #ff5900;
     background-color: transparent;
     transition: .5s;
-}
+} */
 
 .title {
     width: 100%;
@@ -139,7 +180,46 @@ nav .fa {
         color: white;
     }
 
-    .nav-links ul li {
+    .links-container {
+        flex-direction: column;
+        align-items: flex-start;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 10;
+        width: 300px;
+        background-color: black;
+        box-shadow: -5px 0 5px (black, 0.25);
+        transition: .5s;
+    }
+
+    nav a {
+        box-sizing: border-box;
+        height: auto;
+        width: 100%;
+        padding: 20px 30px;
+        justify-content: flex-start;
+    }
+
+    .open-sidebar-btn, .close-sidebar-btn {
+        padding: 20px;
+        display: block;
+    }
+
+    #sidebar-active:checked ~ .links-container {
+        right: 0;
+    }
+
+    #sidebar-active:checked ~ #overlay {
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9;
+    }
+
+    /* .nav-links ul li {
         display: block;
     } 
 
@@ -195,7 +275,7 @@ nav .fa {
 
     .nav-links ul {
         padding: 5px;
-    }
+    } */
 }
 
 
