@@ -435,7 +435,7 @@ h3 {
 
 /* <!--call to action--> */
 .cta {
-    margin: 100px auto;
+    margin: 80px auto;
     width: 80%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(banner2.png);
     background-position: center;
