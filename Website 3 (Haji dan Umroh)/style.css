@@ -337,7 +337,7 @@ h3 {
 .facilities-col {
     flex-basis: 31%;
     border-radius: 10px;
-    margin-bottom: 20%;
+    margin-bottom: 15%;
     text-align: left;
 }
 
@@ -372,7 +372,7 @@ h3 {
 .testimonials {
     width: 80%;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 10px;
     text-align: center;
 }
 
@@ -479,6 +479,7 @@ h3 {
     margin-bottom: 25px;
     margin-top: 20px;
     font-weight: 600;
+    font-size: 25px;
 }
 
 .icons .fa-brands{
@@ -486,6 +487,10 @@ h3 {
     margin: 0 10px;
     cursor: pointer;
     padding: 20px 0;
+}
+
+.icons .fa-brands:hover {
+    color: #ffbb00;
 }
 
 @media (max-width: 700px) {
