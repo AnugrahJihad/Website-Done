@@ -18,10 +18,9 @@
 }
 
 nav {
-    height: 60;
-    background-color: black;
     display: flex;
-    justify-content: flex-end;
+    padding: 2% 6%;
+    justify-content: space-between;
     align-items: center;
 }
 
