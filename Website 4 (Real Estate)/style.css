@@ -18,13 +18,14 @@
 }
 
 nav {
-    height: 60;
-    padding: 2% 6%;
+    height: 90px;
+    padding-inline: 6%;
     background-color: rgba(255, 2555, 255, 0.3);
     backdrop-filter: blur(3px);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: solid 1px white;
 }
 
 nav img {
@@ -32,12 +33,29 @@ nav img {
     width: 150px;
 }
 
+.nav {
+    align-content: center;
+    height: 100%;
+}
+
 .nav a {
     margin-inline: 15px;
     text-decoration: none;
+    color: white;
+    padding-top: 34px;
+    padding-bottom: 31px;
+    padding-inline: 15px;
+    border-bottom: solid 0px;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 2555, 255, 0.2);
+    border-bottom: solid 2px;
 }
 
 .search {
+    color: white;
+    font-size: 20px;
     text-align: right;
 }
 
