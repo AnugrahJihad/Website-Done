@@ -6,44 +6,42 @@
     font-family: "Poppins", sans-serif;
 }
 
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(182, 149, 116, 0.2),rgba(182, 149, 116, 0.4)),url(images/background.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: rgb(182, 149, 116);
+}
+
 nav {
     height: 60;
     padding: 2% 6%;
-    background-color: black;
+    background-color: rgba(255, 2555, 255, 0.3);
+    backdrop-filter: blur(3px);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 nav img {
+    filter: brightness(100);
     width: 150px;
 }
 
-.links-container {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
 .nav a {
-    height: 100%;
-    padding: 0 20px;
-    display: flex;
-    align-items: center;
+    margin-inline: 15px;
     text-decoration: none;
-    color: white;
 }
 
-.nav a:hover {
-    background-color: blue;
+.search {
+    text-align: right;
 }
 
-#sidebar-active {
-    display: none;
-}
-
-.open-sidebar-btn, .close-sidebar-btn {
-    display: none;
+.fa-magnifying-glass {
+    width: 150px;
+    justify-content: flex-end;
 }
