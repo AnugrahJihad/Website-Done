@@ -9,23 +9,20 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(182, 149, 116, 0.2),rgba(182, 149, 116, 0.4)),url(images/background.jpeg);
+    background: linear-gradient(to bottom, #000000, #191919);
+    background-image: url(images/background.jpeg);
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    color: rgb(182, 149, 116);
 }
 
 nav {
-    height: 90px;
-    padding-inline: 6%;
-    background-color: rgba(255, 2555, 255, 0.3);
-    backdrop-filter: blur(3px);
     display: flex;
+    padding: 1.7% 7%;
     justify-content: space-between;
     align-items: center;
-    border-bottom: solid 1px white;
+    background-color: rgba(255, 2555, 255, 0.3);
+    backdrop-filter: blur(3px);
 }
 
 nav img {
@@ -33,33 +30,173 @@ nav img {
     width: 150px;
 }
 
-.nav {
-    align-content: center;
-    height: 100%;
-}
-
-.nav a {
-    margin-inline: 15px;
-    text-decoration: none;
-    color: white;
-    padding-top: 34px;
-    padding-bottom: 31px;
-    padding-inline: 15px;
-    border-bottom: solid 0px;
-}
-
-.nav a:hover {
-    background-color: rgba(255, 2555, 255, 0.2);
-    border-bottom: solid 2px;
-}
-
-.search {
-    color: white;
-    font-size: 20px;
+.nav-links {
+    flex: 1;
     text-align: right;
 }
 
-.fa-magnifying-glass {
-    width: 150px;
-    justify-content: flex-end;
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative; 
+}
+
+.nav-links ul li .a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-links ul li .a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: #b69574;
+    display: block;
+    margin: auto;
+    transition: .5s;
+}
+
+.nav-links ul li .a:hover::after {
+    width: 100%;
+}
+
+.nav-links ul li a:hover {
+    color: #b69574;
+    transition: .5s;
+}
+
+.nav-links ul li a button {
+    font-size: 15px;
+    padding: 10px 20px;
+    border: 2px solid #b69574;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: #b69574;
+    cursor: pointer;
+}
+
+.nav-links ul li a button:hover {
+    border: 2px solid #b69574;
+    background-color: transparent;
+    transition: .5s;
+}
+
+.title {
+    width: 100%;
+    color: white;
+    position: absolute;
+    top: 45%;
+    bottom: 50%;
+    padding-left: 7%;
+}
+
+.title h1 {
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.title p {
+    margin: 10px 0 30px;
+    font-size: 20px;
+    color: white;
+}
+
+nav .fa {
+    display: none;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 13px 33px;
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.15);
+    cursor: pointer;
+}
+
+.btn:hover {
+    border: 2px solid #b69574;
+    background-color: #b69574;
+    transition: .5s;
+}
+
+@media(max-width: 700px){
+    nav img {
+        padding-top: 7px;
+        width: 150px;
+    }
+
+    .title h1 {
+        font-size: 15px;
+    }
+    
+    .title p {
+        margin: 10px 0 30px;
+        font-size: 12px;
+        color: white;
+    }
+
+    .nav-links ul li {
+        display: block;
+    } 
+
+    .nav-links {
+        position: absolute;
+        background: #b69574;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: .5s;
+    }
+
+    .nav-links ul li a button {
+        font-size: 15px;
+        padding: 0px 0px;
+        border: 0px;
+        border-radius: 0px;
+        text-decoration: none;
+        color: white;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .nav-links ul li .a::after {
+        content: '';
+        width: 0%;
+        height: 2px;
+        background-color: #ffffff;
+        display: block;
+        margin: auto auto auto 0;
+        transition: .5s;
+    }
+
+    .nav-links ul li .a:hover::after {
+        width: 60%;
+    }
+    
+    .nav-links ul li a:hover {
+        color: #ffffff;
+        transition: .5s;
+    }
+
+    nav .fa {
+        display: block;
+        color: white;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+
+    .nav-links ul {
+        padding: 5px;
+    }
 }

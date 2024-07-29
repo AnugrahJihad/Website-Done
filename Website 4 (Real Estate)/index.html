@@ -12,22 +12,30 @@
     <!--home-->
     <section class="header">
         <nav>
-            <img src="images/logo.png">
-            <div class="nav">
-                <a href="" class="home">Home</a>
-                <a href="">About Us</a>
-                <a href="">Contact</a>
-                <a href="">Buy</a>
-                <a href="">Sign In</a>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="" class="a">Home</a></li>
+                        <li><a href="" class="a">Listings</a></li>
+                        <li><a href="" class="a">About Us</a></li>
+                        <li><a href="" class="a">Contact Us</a></li>
+                        <li><a href=""><button>Buy & Sell</button></a></li>
+                    </ul>
             </div>
-            <div class="search">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </div>
+            <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
         </nav>
-        <div class="title">
-            <h1>DREAM HOUSE</h1>
-        </div>
-    </section>
+    <div class="title">
+        <h1>DREAM</h1>
+        <h1>HOUSE</h1>
+        <a href="" class="btn">Reservasi</a>
+    </div>
+</section>
 
+
+
+
+
+<script src="script.js"></script>
 </body>
 </html>
