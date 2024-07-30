@@ -703,6 +703,20 @@ h3 {
 
 
 /* <!--location--> */
+.sub4-header {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(images/banner5.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.sub4-header h1 {
+    font-size: 40px;
+    margin-top: 90px;
+}
 .location {
     width: 80%;
     margin: auto;
