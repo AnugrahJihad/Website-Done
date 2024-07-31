@@ -123,7 +123,7 @@ nav .fa {
     display: none;
 }
 
-@media(max-width: 700px){
+@media(max-width: 1000px){
     nav img {
         padding-top: 7px;
         width: 150px;
