@@ -6,65 +6,34 @@
     font-family: "Poppins", sans-serif;
 }
 
-/* Style for navbar */
 nav {
-    display: flex;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
     align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
-    background-color: #333;
-    position: fixed; /* Make the navbar fixed */
-    top: 0; /* Position it at the top */
-    width: 80%; /* Make it span the full width of the page */
-    z-index: 1000; /* Ensure it is above other content */
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
 }
 
-/* Add some padding to the top of the body to prevent content from being hidden behind the navbar */
-body {
-    padding-top: 60px; /* Adjust based on navbar height */
+nav .logo {
+    width: 300px;
+    height: auto;
+    padding: 0 100px;
 }
 
-/* Style for nav-left */
-.nav-left {
-    height: 50px; /* Adjust the height according to your logo */
+nav ul {
+    float: right;
+    margin-right: 20px;
 }
 
-/* Style for nav-mid */
-.nav-mid {
-    list-style: none;
-    display: flex;
-    flex: 1;
-    justify-content: center;
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 50px;
 }
 
-.nav-mid li {
-    margin-left: 20px;
-}
-
-.nav-mid a {
-    text-decoration: none;
+nav ul li a {
     color: white;
-    font-size: 18px;
-}
-
-/* Style for nav-right */
-.nav-right {
-    list-style: none;
-    display: flex;
-}
-
-.nav-right li {
-    margin-left: 20px;
-}
-
-.nav-right a {
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-}
-
-/* Style for header section */
-.header {
-    padding: 20px;
-    background-color: #f4f4f4;
+    font-size: 17px;
 }

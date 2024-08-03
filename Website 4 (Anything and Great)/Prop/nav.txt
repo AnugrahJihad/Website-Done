@@ -1,0 +1,62 @@
+/* Style for navbar */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #333;
+    position: fixed; /* Make the navbar fixed */
+    top: 0; /* Position it at the top */
+    width: 80%; /* Make it span the full width of the page */
+    z-index: 1000; /* Ensure it is above other content */
+}
+
+/* Add some padding to the top of the body to prevent content from being hidden behind the navbar */
+body {
+    padding-top: 60px; /* Adjust based on navbar height */
+}
+
+/* Style for nav-left */
+.nav-left {
+    height: 50px; /* Adjust the height according to your logo */
+}
+
+/* Style for nav-mid */
+.nav-mid {
+    list-style: none;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.nav-mid li {
+    margin-left: 20px;
+}
+
+.nav-mid a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* Style for nav-right */
+.nav-right {
+    list-style: none;
+    display: flex;
+}
+
+.nav-right li {
+    margin-left: 20px;
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* Style for header section */
+.header {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
