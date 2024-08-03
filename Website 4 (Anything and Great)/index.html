@@ -9,22 +9,28 @@
 </head>
 <body>
     
-    <!--home-->
+    <!--navigasi-->
     <nav>
-        <a href="index.html"><img src="images/logo.png" alt=""></a>
-        <div class="nav-links" id="navLinks">
-            <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="index.html" class="a">Home</a></li>
-                    <li><a href="about.html" class="a">About Us</a></li>
-                    <li><a href="contact.html" class="a">Contact Us</a></li>
-                    <li><a href="Paket.html" class="a">Paket</a></li>
-                    <li><a href="blog.html" class="a">Blog</a></li>
-                    <li><a href=""><button>Reservasi</button></a></li>
-                </ul>
+        <input type="checkbox" id="sidebar-active">
+        <label for="sidebar-active" class="open-sidebar-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+        </label>
+
+        <label for="sidebar-active" id="overlay"></label>
+        <div class="links-container">
+            <label for="sidebar-active" class="close-sidebar-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+            </label>
+                <a href="" class="home-link"></a>
+                <a href="">Home</a>
+                <a href="">About Us</a>
+                <a href="">Paket</a>
+                <a href="">Rent</a>
+                <a href="" class="home-link2">Sign In</a>
+            </ul>
         </div>
-        <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
     </nav>
+
     <section class="header">
 
     </section>
