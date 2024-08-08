@@ -17,6 +17,9 @@ html {
     scroll-behavior: smooth;
 }
 
+
+
+/* navigasi */
 nav {
     display: flex;
     position: fixed;
@@ -152,10 +155,27 @@ nav li a:hover {
 
 
 .header-content p {
-    margin: 0;
+    margin-bottom: 30px;
     font-size: 20px;
 }
 
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 13px 33px;
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.15);
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.btn:hover {
+    border: 2px solid var(--color2);
+    background-color: var(--color2);
+}
 
 
 
