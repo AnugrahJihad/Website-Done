@@ -15,8 +15,11 @@ body {
     --color2: #0073ff;
     --color3: #212121;
     --colorbg: #1a1a1a;
-    --colottxt: #ffffff;
+    --colortxt: #ffffff;
+    --colortxt2: #969696;
+    --colorexp: #00ffff;
 }
+
 
 html {
     scroll-behavior: smooth;
@@ -56,13 +59,13 @@ nav {
 }
 
 nav li a {
-    color: var(--colottxt);
+    color: var(--colortxt);
     text-decoration: none;
     letter-spacing: 1px;
     transition: .5s;
 }
 
-nav li .a::after {
+.a::after {
     content: '';
     width: 0%;
     height: 2px;
@@ -72,7 +75,7 @@ nav li .a::after {
     transition: .5s;
 }
 
-nav li .a:hover::after {
+.a:hover::after {
     width: 100%;
 }
 
@@ -92,15 +95,15 @@ nav li a:hover {
 }
 
 .search i {
-    color: var(--colottxt);
+    color: var(--colortxt);
     padding-inline: 5px 10px;
-    border-right: 1px solid var(--colottxt);
+    border-right: 1px solid var(--colortxt);
 }
 
 .search input {
     flex: 1;
     height: 100%;
-    color: var(--colottxt);
+    color: var(--colortxt);
     background-color: transparent;
     border: none;
     outline: none;
@@ -142,7 +145,7 @@ nav li a:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: var(--colottxt);
+    color: var(--colortxt);
     overflow: hidden;
 }
 
@@ -166,8 +169,8 @@ nav li a:hover {
 .btn {
     display: inline-block;
     text-decoration: none;
-    color: var(--colottxt);
-    border: 2px solid var(--colottxt);
+    color: var(--colortxt);
+    border: 2px solid var(--colortxt);
     padding: 13px 33px;
     font-size: 15px;
     background-color: transparent;
@@ -185,15 +188,16 @@ nav li a:hover {
 /* special offer */
 .offer {
     width: 80%;
+    height: 90vh;
     margin: auto;
-    padding-top: 100px;
+    align-content: center;
 }
 
 .offer-title {
     display: flex;
     font-size: 25px;
     justify-content: space-between;
-    color: var(--colottxt);
+    color: var(--colortxt);
     align-content: center;
 }
 
@@ -206,27 +210,13 @@ nav li a:hover {
 .offertitle-left a{
     font-size: 15px;
     text-decoration: none;
-    color: var(--colottxt);
-}
-
-.offertitle-left .a2::after {
-    content: '';
-    width: 0%;
-    height: 2px;
-    background-color: var(--color2);
-    display: block;
-    margin: auto;
-    transition: .5s;
-}
-
-.offertitle-left .a2:hover::after {
-    width: 100%;
+    color: var(--colortxt);
 }
 
 .btn2 {
-    color: var(--colottxt);
+    color: var(--colortxt);
     background-color: transparent;
-    border: 1px solid var(--colottxt);
+    border: 1px solid var(--colortxt);
     padding: 10px 40px;
     transition: all .5s;
     cursor: pointer;
@@ -246,12 +236,27 @@ nav li a:hover {
     width: 25%;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
+}
+
+.img-col {
+    width: 100%;
+    height: 100%;
+    align-content: center;
 }
 
 .choose-col img {
-    width: 90%;
+    width: 100%;
     height: auto;
-    background-color: aqua;
+}
+
+.car-merk {
+    font-size: 17px;
+    text-align: center;
+}
+
+.car-merk span {
+    color: var(--colortxt2);
 }
 
 .reverse-car {
@@ -259,13 +264,27 @@ nav li a:hover {
 }
 
 .choose-col p {
-    color: var(--colottxt);
+    color: var(--colortxt);
 }
 
 .price {
+    margin-top: 30px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.price span {
+    color: var(--colortxt2);
+}
+
+.order a{
+    margin-top: 3px;
     display: flex;
     align-items: center;
-    align-content: center;
+    text-decoration: none;
+    gap: 15px;
+    color: var(--colortxt);
 }
 
 
