@@ -15,6 +15,7 @@ body {
     --color2: #0073ff;
     --color3: #212121;
     --colorbg: #1a1a1a;
+    --colottxt: #ffffff;
 }
 
 html {
@@ -34,7 +35,7 @@ nav {
     background-color: rgba(255, 255, 255, 0.001);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(10px);
-    padding: 2% 8%;
+    padding: 2% 9%;
     box-sizing: border-box;
     z-index: 1000;
 }
@@ -55,7 +56,7 @@ nav {
 }
 
 nav li a {
-    color: white;
+    color: var(--colottxt);
     text-decoration: none;
     letter-spacing: 1px;
     transition: .5s;
@@ -91,15 +92,15 @@ nav li a:hover {
 }
 
 .search i {
-    color: white;
+    color: var(--colottxt);
     padding-inline: 5px 10px;
-    border-right: 1px solid white;
+    border-right: 1px solid var(--colottxt);
 }
 
 .search input {
     flex: 1;
     height: 100%;
-    color: white;
+    color: var(--colottxt);
     background-color: transparent;
     border: none;
     outline: none;
@@ -141,7 +142,7 @@ nav li a:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: white;
+    color: var(--colottxt);
     overflow: hidden;
 }
 
@@ -165,8 +166,8 @@ nav li a:hover {
 .btn {
     display: inline-block;
     text-decoration: none;
-    color: white;
-    border: 2px solid white;
+    color: var(--colottxt);
+    border: 2px solid var(--colottxt);
     padding: 13px 33px;
     font-size: 15px;
     background-color: transparent;
@@ -192,15 +193,41 @@ nav li a:hover {
     display: flex;
     font-size: 25px;
     justify-content: space-between;
-    color: white;
+    color: var(--colottxt);
+    align-content: center;
+}
+
+.offertitle-left {
+    display: flex;
     align-items: center;
+    gap: 50px;
+}
+
+.offertitle-left a{
+    font-size: 15px;
+    text-decoration: none;
+    color: var(--colottxt);
+}
+
+.offertitle-left .a2::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: var(--color2);
+    display: block;
+    margin: auto;
+    transition: .5s;
+}
+
+.offertitle-left .a2:hover::after {
+    width: 100%;
 }
 
 .btn2 {
-    color: white;
+    color: var(--colottxt);
     background-color: transparent;
-    border: 1px solid white;
-    padding: 10px 50px;
+    border: 1px solid var(--colottxt);
+    padding: 10px 40px;
     transition: all .5s;
     cursor: pointer;
 }
@@ -210,8 +237,35 @@ nav li a:hover {
     background-color: var(--color2);
 }
 
-.camry {
+.choose-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.choose-col {
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose-col img {
+    width: 90%;
+    height: auto;
+    background-color: aqua;
+}
+
+.reverse-car {
     transform: scaleX(-1);
+}
+
+.choose-col p {
+    color: var(--colottxt);
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    align-content: center;
 }
 
 
