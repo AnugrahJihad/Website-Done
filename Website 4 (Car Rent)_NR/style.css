@@ -18,6 +18,7 @@ body {
     --colortxt: #ffffff;
     --colortxt2: #969696;
     --colorexp: #00ffff;
+    --colorexp2: #ff5900;
 }
 
 
@@ -201,18 +202,6 @@ nav li a:hover {
     align-content: center;
 }
 
-.offertitle-left {
-    display: flex;
-    align-items: center;
-    gap: 50px;
-}
-
-.offertitle-left a{
-    font-size: 15px;
-    text-decoration: none;
-    color: var(--colortxt);
-}
-
 .btn2 {
     color: var(--colortxt);
     background-color: transparent;
@@ -289,6 +278,40 @@ nav li a:hover {
 
 
 
+/* about */
+.about {
+    width: 80%;
+    height: 80vh;
+    margin: 50px auto;
+    align-content: center;
+}
+
+.about-col {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-left {
+    width: 45%;
+    margin-right: auto;
+    color: var(--colortxt);
+}
+
+.about-left h1 {
+    font-size: 50px;
+}
+
+.about-left h4, .about-left p {
+    margin-top: 30px;
+    color: var(--colortxt2);
+}
+
+.about-right {
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+}
 
 
 
@@ -305,7 +328,11 @@ nav li a:hover {
 
 
 
-/* scrollbar (never change it, actually just change it) */
+
+
+
+
+/* scrollbar (never change it, actually just change it XD) */
 ::-webkit-scrollbar {
     width: 15px;
 }
