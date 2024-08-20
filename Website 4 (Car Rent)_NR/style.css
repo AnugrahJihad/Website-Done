@@ -269,6 +269,7 @@ nav li a:hover {
 
 .order a{
     margin-top: 3px;
+
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -298,6 +299,7 @@ nav li a:hover {
     color: var(--colortxt);
 }
 
+
 .about-left h1 {
     font-size: 50px;
 }
@@ -312,6 +314,16 @@ nav li a:hover {
     height: auto;
     margin-left: auto;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
